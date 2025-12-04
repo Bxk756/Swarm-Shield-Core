@@ -1,0 +1,12 @@
+name = "swarmshield-api"
+main = "src/index.ts"
+compatibility_date = "2025-12-02"
+type_generation = false
+
+routes = [
+  { pattern = "api.swarmshield.cloud/*", custom_domain = true }
+]
+
+[vars]
+SUPABASE_URL = ""
+SUPABASE_SERVICE_KEY = ""
