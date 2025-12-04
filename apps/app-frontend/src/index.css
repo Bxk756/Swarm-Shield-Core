@@ -1,13 +1,3 @@
-@import "@tailwindcss/postcss";
-
-@theme {
-  --color-bg: #020617;
-  --color-fg: #0f172a;
-  --color-brand: #0ea5e9;
-  --color-brand-light: #38bdf8;
-  --color-brand-dark: #0284c7;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
